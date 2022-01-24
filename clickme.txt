@@ -1,0 +1,23 @@
+- This is a simple 2D game. Also, this game was done as a MAVEN project on netbeans.
+
+*Game Description:
+
+1) This game has 2 interfaces, Main Menu and Game Play levels.
+
+2) to know more about the controls and rules of the games click on help on the main menu.
+
+3) This game have no level limit, each level the difficulty of the game will be modified.
+	
+4) For the first 4 levels there are 4 unique models for the chicken and the cat, also the background.
+
+*Code Description:
+
+- there are 4 main packages in use:
+
+1) com.zed65.main : contains 3 classes including the launcher, the main game frame of the game etc.
+
+2) com.zed65.main.entities: contains all entities of the game. Example: cat,chicken, cloud etc.
+
+3) com.zed65.main.states: contains states of the game, like MainMenu and Level. 
+
+4) com.zed65.main.utils: contains the utility classes, like ImageLoader, the SoundEffect class and KeyManager etc.
